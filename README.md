@@ -16,10 +16,10 @@ This is a Python-based trivia quiz game where players can answer questions from 
 bash ''
 git clone https://github.com/Daniel-Enforme/Trivia-Quiz-Game
 
-2. Navigate to the game directory
-   bash ''
+2. Navigate to the game directory  
+   bash ''  
    cd Trivia-Quiz-Game
 
-3. Run the quiz game
-   bash ''
+3. Run the quiz game  
+   bash ''  
    python game/quiz.py
