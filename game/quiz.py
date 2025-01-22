@@ -1,7 +1,15 @@
 # game/quiz.py
 
+
+import sys
+import os
 import random
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../data')))
+
 from data.questions import questions  # Import the question pool
+from questions import questions
+
 
 def get_questions(category, num_questions=30):
     # Fetch the questions for a specific category
